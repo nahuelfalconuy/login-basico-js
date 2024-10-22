@@ -1,0 +1,34 @@
+Login Project
+
+Este es un proyecto básico de una interfaz de login que incluye validaciones de campos
+
+Características del Proyecto:
+
+- Validación de correo electrónico con una expresión regular.
+
+- Validación de contraseña con un mínimo de 6 caracteres.
+
+- Confirmación de la contraseña para garantizar que coincide con la original.
+
+- Span para mostrar u ocultar la contraseña.
+
+- Almacenamiento de email en el LocalStorage del navegador.
+
+Tecnologías Utilizadas:
+
+HTML5: Estructura del formulario.
+CSS3: Diseño y estilización del formulario.
+JavaScript: Validaciones y manejo del DOM.
+LocalStorage: Almacenamiento del email.
+
+Instalación y Uso
+
+A. Clonar el repositorio:
+    git clone [https](https://github.com/tu-usuario/login-project.git)
+B. Abrir el archivo index.html en su navegador de preferencia. No requiere de servidor Backend para ejecutar.
+
+C. Complete los campos del formulario:
+- Email: Ingrese un correo electrónico válido.
+- Contraseña: Ingrese una contraseña con al menos 6 caracteres.
+- Confirmar Contraseña: Repita la contraseña ingresada en el campo anterior.
+- Login: Al hacer clic en el botón de 'Login', si todo es correcto, se almacena el email en el LocalStorage y se muestra un mensaje de éxito.

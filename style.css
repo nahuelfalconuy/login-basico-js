@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #98e4ff, #4486c8, #6b2099, #9f046e);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    margin: 20px;
+    background-color: color(from color srgb r g b);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 
+        -1px 5px 300px rgba(152, 228, 255, 1),  /* color #98e4ff */
+        -1px 5px 300px rgba(68, 134, 200, 1),  /* color #4486c8 */
+        -1px 5px 300px rgba(107, 32, 153, 1), /* color #6b2099 */
+        -1px 5px 300px rgb(255, 40, 129);  /* color #9f046e */ 
+        width: 350px; 
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 19px;
+    box-sizing: border-box;
+}
+
+
+input:focus {
+    outline: none;
+    border-color: #4486c8; 
+    box-shadow: 0 0 5px rgba(68, 134, 200, 0.5);
+}
+
+
+#loguear{
+   border-radius: 6px;
+   cursor: pointer;
+   font-size: large;
+   transition: all 0.5 ease;
+   background-color:#eebcde;
+   border: none;
+   margin-bottom: 20px;
+}
+
+#loguear:hover{
+    background-color:#c07baa;
+}
+
+#show-hide{
+    position: relative;
+    top: -10px;
+    float: right;
+    padding: 8px;
+    font-size: small;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s ease;
+    color: #cccccc;
+}
+
+.error-message{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin-top: -8px;
+    margin-bottom: - 8px;
+    display: none;
+}
+
+#show-hide:hover{
+    border-bottom: 1px solid black;
+    color: #010002;
+}
+
+
